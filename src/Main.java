@@ -10,7 +10,6 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
 
-        // Criando o JLabel
         JLabel label = new JLabel("Digite o IP");
         label.setAlignmentX(Component.CENTER_ALIGNMENT);
 
